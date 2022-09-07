@@ -1,0 +1,32 @@
+.titre1 {
+    
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        
+        width: 90%;
+        @include police-logo();
+        font-size:calc(25px - 0.3em);
+        @include tablette-only {
+            font-size: 24px;
+        }
+        @include desktop-only {
+            font-size: 24px;
+        }
+    }
+}
+.coeur-menu {
+    
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    
+ }
+   

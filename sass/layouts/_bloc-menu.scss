@@ -1,0 +1,12 @@
+.menu-body {
+    height: auto;
+    background-color: #f6f6f6;
+    border-radius: 40px;
+    position: relative;
+    top: -50px;
+    @include desktop-only {
+        background-color: #f6f6f6;
+        border-radius: 0px;  
+        margin-top: 50px;
+    }
+}

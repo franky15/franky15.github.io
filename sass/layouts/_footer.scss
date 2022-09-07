@@ -1,0 +1,77 @@
+
+footer {
+   
+    height: 150px;
+    background-color: #353535;
+    color: white;
+    border: solid;
+    
+}
+.logo-footer{
+    
+    h1 {
+        margin-left: 25px;
+        @include police-logo;
+        font-size: 14px;
+        position: relative;
+        top: 10px;
+        
+    }
+    @include desktop-only {
+        display: flex;
+        justify-content: center;
+    }
+}
+ul{
+    width: 90%;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    @include desktop-only {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        
+        height: 20px;
+        width: auto;
+        list-style: none;
+        @include desktop-only {
+            display: flex;
+            align-items: center;
+            width: auto;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: calc(2vw + 4px); /*13*/
+            @include tablette-only {
+                font-size: 13px; /*13*/
+            }
+            @include desktop-only {
+                font-size: 13px; 
+            }
+        }
+    }
+    .puce1 {
+        position: relative;
+        left: -20px;
+        display: flex;
+    }
+    span {
+        
+        width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        img {
+            width: 10px; 
+            filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(338deg) brightness(101%) contrast(103%);
+        }
+    }
+    
+ }
+ 

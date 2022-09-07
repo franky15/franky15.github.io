@@ -1,0 +1,39 @@
+@import "./base/police";
+
+
+@import "./utils/mixin";
+@import "./utils/variables";
+@import "./utils/keyframes-spin";
+@import "./utils/keyframes-spinbloc";
+
+
+@import "./layouts/footer";
+
+
+@import "./components/button-acceuil";
+@import "./components/coeur-acceuil";
+@import "./components/coeur";
+
+@import "./pages/header-acceuil";
+@import "./pages/logo-acceuil";
+@import "./pages/body-acceuil";
+@import "./pages/section-contener-filter";
+@import "./pages/section-restaurant";
+
+
+/****************************** pages secondaires ****************/
+
+
+@import "./utils/keyframes-menu-retard";
+
+
+@import "./layouts/header-menu";
+@import "./layouts/baner";
+@import "./layouts/bloc-menu";
+@import "./layouts/barre";
+@import "./layouts/entrees";
+@import "./layouts/plats";
+@import "./layouts/desserts";
+
+@import "./components/button-menu";
+@import "./components/coeur-menu"

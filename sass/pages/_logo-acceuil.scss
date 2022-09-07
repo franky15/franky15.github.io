@@ -1,0 +1,13 @@
+.logo-acceuil {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    .para-acceuil {
+        width: 40%;
+        text-align: center;
+        margin: auto;
+        img {
+            width: 120px;
+        }
+    }
+}
